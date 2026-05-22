@@ -1,5 +1,6 @@
 [server]
 maxUploadSize = 10
+port = 3618
 
 [theme]
 primaryColor = "#1a5c2a"

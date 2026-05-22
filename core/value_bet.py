@@ -181,11 +181,13 @@ def _ah_draw_factor(line: float) -> float:
 
 
 def _ou_prob(home_rating: float, away_rating: float, line: float) -> float:
+    import math
     expected_goals = (home_rating / 100.0) * 2.5 + (away_rating / 100.0) * 1.8
     expected_goals = max(1.5, min(5.0, expected_goals))
-    try:
-        from scipy.stats import poisson
-        prob_over = 1.0 - poisson.cdf(line, expected_goals)
-    except ImportError:
-        prob_over = 0.45
+
+    prob_under = 0.0
+    for k in range(int(line) + 1):
+        prob_under += (expected_goals ** k) * math.exp(-expected_goals) / math.factorial(k)
+
+    prob_over = 1.0 - prob_under
     return round(float(prob_over), 3)
