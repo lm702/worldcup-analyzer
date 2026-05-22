@@ -1,0 +1,22 @@
+{
+  "match_id": "brazil_vs_scotland",
+  "home_team": "巴西",
+  "away_team": "苏格兰",
+  "group": "",
+  "stage": "group",
+  "match_date": "",
+  "venue": "",
+  "odds_list": [
+    {
+      "source": "BET365",
+      "moneyline": {
+        "home_win": 1.4,
+        "draw": 4.75,
+        "away_win": 7.5
+      },
+      "asian_handicap": null,
+      "over_under": null,
+      "updated_at": ""
+    }
+  ]
+}

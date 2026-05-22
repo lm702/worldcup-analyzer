@@ -1,0 +1,96 @@
+{
+  "team_name": "巴西",
+  "position_distribution": {
+    "score": 56.0,
+    "strengths": [
+      "GK3人，配置完美",
+      "DEF9人，配置完美"
+    ],
+    "weaknesses": [
+      "MID5人，缺1人",
+      "FWD仅9人，严重偏离5人",
+      "多面手不足，变阵受限"
+    ],
+    "evidence": {
+      "GK_count": 3.0,
+      "DEF_count": 9.0,
+      "MID_count": 5.0,
+      "FWD_count": 9.0,
+      "multi_position": 0.0
+    }
+  },
+  "fatigue_management": {
+    "score": 45.0,
+    "strengths": [
+      "平均年龄28.3岁"
+    ],
+    "weaknesses": [
+      "10人超30岁，淘汰赛体能严重存疑"
+    ],
+    "evidence": {
+      "avg_age": 28.3,
+      "over_30": 10.0,
+      "under_23": 3.0,
+      "starter_avg_age": 28.7
+    }
+  },
+  "knockout_adaptability": {
+    "score": 78.0,
+    "strengths": [
+      "总出场860次，经验极丰富",
+      "11名球星压阵，关键战有依靠"
+    ],
+    "weaknesses": [],
+    "evidence": {
+      "total_caps": 860.0,
+      "star_count": 11.0,
+      "high_caps_50": 5.0
+    }
+  },
+  "venue_adaptation": {
+    "score": 67.0,
+    "strengths": [
+      "10人在非欧洲联赛踢球"
+    ],
+    "weaknesses": [
+      "无北美联赛经历"
+    ],
+    "evidence": {
+      "na_experience": 0.0,
+      "non_europe": 10.0,
+      "top5_league": 13.0
+    }
+  },
+  "substitution_strategy": {
+    "score": 70.0,
+    "strengths": [
+      "替补均评6.80",
+      "替补席5名球星级",
+      "20名轮换/边缘球员"
+    ],
+    "weaknesses": [
+      "多面手不足"
+    ],
+    "evidence": {
+      "bench_avg_rating": 6.8,
+      "multi_position": 0.0,
+      "bench_stars": 5.0
+    }
+  },
+  "yellow_card_risk": {
+    "score": 78.0,
+    "strengths": [
+      "纪律性好(场均2.46张)"
+    ],
+    "weaknesses": [
+      "5人吃牌偏多"
+    ],
+    "evidence": {
+      "avg_yellow": 2.46,
+      "defender_avg_yc": 3.73,
+      "high_risk": 5.0
+    }
+  },
+  "overall_rating": 68.2,
+  "analyzed_at": "2026-05-22T17:52:24.825096"
+}

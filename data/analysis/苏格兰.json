@@ -1,0 +1,93 @@
+{
+  "team_name": "苏格兰",
+  "position_distribution": {
+    "score": 64.0,
+    "strengths": [
+      "GK3人，配置完美",
+      "FWD5人，配置完美"
+    ],
+    "weaknesses": [
+      "DEF10人，冗余1人",
+      "MID8人，偏离6人",
+      "多面手不足，变阵受限"
+    ],
+    "evidence": {
+      "GK_count": 3.0,
+      "DEF_count": 10.0,
+      "MID_count": 8.0,
+      "FWD_count": 5.0,
+      "multi_position": 0.0
+    }
+  },
+  "fatigue_management": {
+    "score": 53.0,
+    "strengths": [
+      "平均年龄29.0岁"
+    ],
+    "weaknesses": [
+      "7人超30岁，体能存疑"
+    ],
+    "evidence": {
+      "avg_age": 29.0,
+      "over_30": 7.0,
+      "under_23": 2.0,
+      "starter_avg_age": 28.4
+    }
+  },
+  "knockout_adaptability": {
+    "score": 75.0,
+    "strengths": [
+      "总出场817次，经验极丰富",
+      "5名球星",
+      "7人出场50+"
+    ],
+    "weaknesses": [],
+    "evidence": {
+      "total_caps": 817.0,
+      "star_count": 5.0,
+      "high_caps_50": 7.0
+    }
+  },
+  "venue_adaptation": {
+    "score": 61.0,
+    "strengths": [],
+    "weaknesses": [
+      "无北美联赛经历"
+    ],
+    "evidence": {
+      "na_experience": 0.0,
+      "non_europe": 1.0,
+      "top5_league": 14.0
+    }
+  },
+  "substitution_strategy": {
+    "score": 56.0,
+    "strengths": [
+      "19名轮换/边缘球员"
+    ],
+    "weaknesses": [
+      "多面手不足"
+    ],
+    "evidence": {
+      "bench_avg_rating": 6.37,
+      "multi_position": 0.0,
+      "bench_stars": 0.0
+    }
+  },
+  "yellow_card_risk": {
+    "score": 84.0,
+    "strengths": [
+      "纪律性好(场均2.19张)"
+    ],
+    "weaknesses": [
+      "4人吃牌偏多"
+    ],
+    "evidence": {
+      "avg_yellow": 2.19,
+      "defender_avg_yc": 3.0,
+      "high_risk": 4.0
+    }
+  },
+  "overall_rating": 66.8,
+  "analyzed_at": "2026-05-22T17:52:24.828460"
+}

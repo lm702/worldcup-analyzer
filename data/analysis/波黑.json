@@ -1,0 +1,96 @@
+{
+  "team_name": "波黑",
+  "position_distribution": {
+    "score": 51.0,
+    "strengths": [
+      "GK3人，配置完美"
+    ],
+    "weaknesses": [
+      "DEF8人，缺1人",
+      "MID仅9人，严重偏离6人",
+      "FWD6人，冗余1人",
+      "多面手不足，变阵受限"
+    ],
+    "evidence": {
+      "GK_count": 3.0,
+      "DEF_count": 8.0,
+      "MID_count": 9.0,
+      "FWD_count": 6.0,
+      "multi_position": 0.0
+    }
+  },
+  "fatigue_management": {
+    "score": 68.0,
+    "strengths": [
+      "平均年龄27.0岁，处于黄金期"
+    ],
+    "weaknesses": [
+      "主力均龄30.5岁，偏高"
+    ],
+    "evidence": {
+      "avg_age": 27.0,
+      "over_30": 3.0,
+      "under_23": 2.0,
+      "starter_avg_age": 30.5
+    }
+  },
+  "knockout_adaptability": {
+    "score": 45.0,
+    "strengths": [
+      "总出场491次",
+      "4名球星"
+    ],
+    "weaknesses": [
+      "仅2人出场50+"
+    ],
+    "evidence": {
+      "total_caps": 491.0,
+      "star_count": 4.0,
+      "high_caps_50": 2.0
+    }
+  },
+  "venue_adaptation": {
+    "score": 63.0,
+    "strengths": [
+      "13人在非欧洲联赛踢球"
+    ],
+    "weaknesses": [
+      "无北美联赛经历"
+    ],
+    "evidence": {
+      "na_experience": 0.0,
+      "non_europe": 13.0,
+      "top5_league": 9.0
+    }
+  },
+  "substitution_strategy": {
+    "score": 56.0,
+    "strengths": [
+      "20名轮换/边缘球员"
+    ],
+    "weaknesses": [
+      "多面手不足"
+    ],
+    "evidence": {
+      "bench_avg_rating": 6.2,
+      "multi_position": 0.0,
+      "bench_stars": 1.0
+    }
+  },
+  "yellow_card_risk": {
+    "score": 78.0,
+    "strengths": [
+      "纪律性好(场均1.81张)"
+    ],
+    "weaknesses": [
+      "5人吃牌偏多"
+    ],
+    "evidence": {
+      "avg_yellow": 1.81,
+      "defender_avg_yc": 3.67,
+      "high_risk": 5.0
+    }
+  },
+  "overall_rating": 58.0,
+  "analyzed_at": "2026-05-22T17:52:24.833171"
+}
